@@ -74,7 +74,7 @@ import nbconvert
 #     return functions
 
 
-notebook_urls = ['https://raw.githubusercontent.com/BenjaminTrouve/Kinesys-output-app/main/Analysis/H2_new_capacity_Kinesys.ipynb']
+notebook_urls = ['/main/Analysis/H2_new_capacity_Kinesys.ipynb']
 
 def download_notebook(url, notebook_path):
     """Download the notebook from GitHub and save it locally."""

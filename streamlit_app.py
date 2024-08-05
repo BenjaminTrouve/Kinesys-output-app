@@ -173,7 +173,7 @@ function_choice_list = inverse_process_string_list(function_choice)
 
 if function_choice:
     func = all_functions[function_choice_list[0]]
-    st.set_option('deprecation.showPyplotGlobalUse', False) 
+    # st.set_option('deprecation.showPyplotGlobalUse', False) 
     # figure_func = function_choice[0]
     fig = func(file_path_scen,file_path_ref, run_name_scen,run_name_ref,output_folder)
     st.pyplot(fig)

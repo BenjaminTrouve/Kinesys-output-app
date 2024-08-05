@@ -2,3 +2,8 @@ streamlit
 nbformat
 nbconvert
 matplotlib
+pandas
+os
+warnings
+importlib
+requests

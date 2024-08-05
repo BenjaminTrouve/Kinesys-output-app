@@ -30,7 +30,7 @@ def scenario_param(date_ref, date_scen):
     date_list = [date_ref, date_scen]
     run_name_ref = f'nze~0004_{date_list[0]}'
     run_name_scen = f'nze~0004_{date_list[1]}'
-    folder_path = 'https://raw.githubusercontent.com/BenjaminTrouve/Kinesys-output-app/main/Attribute CSV/'
+    folder_path = 'Attribute CSV/'
     file_path_ref = folder_path + run_name_ref + '/'
     file_path_scen = folder_path + run_name_scen + '/'
     output_folder = 'G:/Departement_ R141/Modelisation TIMES/KINESYS output/Figures/' + run_name_scen + '/'
